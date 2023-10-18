@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,33 +18,84 @@
             <span>Nombre empresa</span>
         </a>
         <nav>
-           <ul>
-            <li>
-                <a href="#Home">Home</a>
-            </li>
-            <li>
-                <a href="#Historia">Historia</a>
-            </li>
-            <li>
-                <a href="#Servicios">Servicios</a>
-            </li>
-            <li>
-                <a href="#Eventos">Eventos</a>
-            </li>
-            <li>
-                <a href="./Reservas.html">Reservas</a>
-            </li>
-            <li>
-                <a href="#Contactos">Contactos</a>
-            </li> 
-           </ul>
+            <ul>
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#Historia">Historia</a>
+                </li>
+                <li>
+                    <a href="#Servicios">Servicios</a>
+                </li>
+                <li>
+                    <a href="#Eventos">Eventos</a>
+                </li>
+                <li>
+                    <a href="./Reservas.html">Reservas</a>
+                </li>
+                <li>
+                    <a href="#Contactos">Contactos</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
+        <h1>ECOTURISMO</h1>
+        <h2>Reservas</h2>
+        <form action="Formulario de Reserva" method="get">
+            <section id="Paseos y opciones">
+                <h3>Seleccione Paseos</h3>
+                <div class="conteiner">
+                    <div class="card">
+                        <img src="./Imgeneshtml/imgpaseos.jpg" height="200" alt="Imagen Paseo 1">
+                        <h3> Paseo 1 </h3>
+                        <p> Texto Descripcion </p>
+                        <span>Seleccionar paseo 1</span><input type="checkbox" name="Opcion 1" value="1">
+                    </div>
+                    <div class="card">
+                        <img src="./Imgeneshtml/cachoeira2.jpg" height="150" alt="Imagen Paseo 2">
+                        <h3> Paseo 2 </h3>
+                        <p> Texto Descripcion </p>
+                        <span>Seleccionar paseo 2</span><input type="checkbox" name="Opcion 2" value="2">
+                    </div>
+                    <div class="card">
+                        <img src="./Imgeneshtml/paseo3.jpg" height="200" alt="Imagen Paseo 3">
+                        <h3> Paseo 3 </h3>
+                        <p> Texto Descripcion </p>
+                        <span>Seleccionar paseo 3</span><input type="checkbox" name="Opcion 3" value="3">
+                    </div>
+            </section>
+            <fieldset>
+                <div>
+                    <h2>Servicios Complentares</h2>
+                    <label for="Servicios">Opciones:</label>
+                    <span>Hospedaje</span><input type="checkbox" name="Servicio 1" value="Hospedaje">
+                    <span>Alimentacion</span><input type="checkbox" name="Servicio 2" value="Alimentacion">
+                    <span>Transporte</span><input type="checkbox" name="Servicio 3" value="Transporte">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend> Mail </legend>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre">
+
+                <label for="Apellido">Apellido:</label>
+                <input type="text" name="Apellido">
+
+                <label for="descripcion">Descripcion:</label>
+                <textarea name="descripcion" cols="30" rows="10"></textarea>
+
+            </fieldset>
+            <button type="submit"> Enviar Formulario </button>
+
+        </form>
 
     </main>
-    <h1>ECOTURISMO</h1>
-    <h2>Reservas</h2>
     <footer>
         <div>
             <img src="" alt="Imagen Instagram">
