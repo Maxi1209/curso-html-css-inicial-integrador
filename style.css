@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: olive;
+    padding: 0.5px;
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: orange;
+}
+
+ul li {
+    display: inline;
+
+    }
+
+ul {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    margin: 0.5;
+}
+main{
+    margin-top: 3.5rem;
+}
