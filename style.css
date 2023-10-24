@@ -11,7 +11,9 @@ header {
     left: 0%;
     width: 100%;
     box-sizing: border-box;
-    
+    z-index: 1;
+
+
 }
 
 header a {
@@ -22,7 +24,7 @@ header a {
 ul li {
     display: inline;
 
-    }
+}
 
 ul {
     position: absolute;
@@ -30,6 +32,32 @@ ul {
     right: 30px;
     margin: 0.5;
 }
-main{
-    margin-top: 3.5rem;
+
+main {
+    margin-top: 3rem;
+
 }
+
+section#Home {
+    min-height: 80vh;
+    background-image: url("./Imgeneshtml/fumaca-jalapao.jpg");
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+section div#Presentacion {
+    color: chartreuse;
+    text-align: right;
+    padding: 30px;
+    left: 0px;
+    bottom: 0px;
+    
+
+}
+
+section div#Presentacion img {
+    visibility: hidden; important
+}
+
