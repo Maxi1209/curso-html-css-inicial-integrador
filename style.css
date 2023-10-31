@@ -39,7 +39,7 @@ main {
 
 }
 
-section#Home {
+section#home {
     min-height: 80vh;
     background-image: url("./Imgeneshtml/fumaca-jalapao.jpg");
     background-size: cover;
@@ -50,7 +50,7 @@ section#Home {
 
 }
 
-section div#Presentacion {
+section div#presentacion {
     color: chartreuse;
     text-align: right;
     padding: 30px;
@@ -60,22 +60,22 @@ section div#Presentacion {
 
 }
 
-section div#Presentacion img {
+section div#presentacion img {
     visibility: hidden;
 }
 
-section#Historia {
+section#historia {
     text-align: center;
     padding: 0px 75px; 
     margin-top: 100px;
 }
 
-section#Servicios {
+section#servicios {
     margin-top: 100px;
     padding: 0px 50px;
 }
 
-section#Servicios h2 {
+section#servicios h2 {
     text-align: center;
 }
 
@@ -104,19 +104,19 @@ section#Servicios h2 {
     
 }
 
-section#Eventos {
+section#eventos {
     
 }
 
-section#Eventos h2{
+section#eventos h2{
     text-align: center; 
 }
 
-section#Contactos {
+section#contactos {
    
 }
 
-section div#Redes-Sociales {
+section div#redes-sociales {
     width: 100%;
     background-color: olive;
     display: flex;
