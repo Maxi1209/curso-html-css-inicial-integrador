@@ -87,6 +87,12 @@ section#Servicios h2 {
     
     
 }
+.conteiner1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .card {
     border: 1px solid black;
@@ -140,5 +146,5 @@ footer{
 }
 
 section div{
-    
+
 }
