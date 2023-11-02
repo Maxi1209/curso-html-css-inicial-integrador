@@ -1,5 +1,16 @@
+h1 {
+    color: gold;
+    font-size: 8rem;
+}
+h1 + h2 {
+    color: gold;
+    font-size: 5rem;
+}
+
+
 body {
     margin: 0%;
+    background-color: orange;
 }
 
 header {
@@ -51,7 +62,7 @@ section#home {
 }
 
 section div#presentacion {
-    color: chartreuse;
+    color: gold;
     text-align: right;
     padding: 30px;
     left: 0px;
@@ -101,7 +112,6 @@ section#servicios h2 {
     margin: 10px;
     width: 200px;
     height: 300px;
-    
 }
 
 section#eventos {
