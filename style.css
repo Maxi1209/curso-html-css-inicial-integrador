@@ -122,8 +122,8 @@ section#eventos h2{
     text-align: center; 
 }
 
-section#contactos {
-   
+section#contactos h2{
+    visibility: hidden;
 }
 
 section div#redes-sociales {
@@ -155,6 +155,3 @@ footer{
     align-items: center;
 }
 
-section div{
-
-}
