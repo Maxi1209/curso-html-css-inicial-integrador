@@ -13,6 +13,7 @@ body {
 header {
     background-color: olive;
     padding: 0.5px;
+    border: 1px solid black;
 
     position: fixed;
     top: 0px;
@@ -21,21 +22,61 @@ header {
     box-sizing: border-box;
     z-index: 1;
 }
-header a {
-    margin-left: 5px;
-    text-decoration: none;
-    color: orange;
-}
-ul li {
-    display: inline;
 
+#header-top {
+    background-color: white;
+    padding: 7px;
+
+    display: flex;
+    justify-content: space-between;
 }
+
+#brand {
+    flex-grow: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brand span{
+    color: forestgreen;
+    
+}
+
+#user {
+    flex-grow: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand img {
+    height: 1.5rem;
+    margin-right: 5px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.separator {
+    padding: 0 10px;
+}
+
 ul {
-    position: absolute;
-    top: 0px;
-    right: 30px;
-    margin: 0.5;
+    background-color: olive;
+    list-style-type: none;
+    margin: 0px;
+    padding: 7px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+
 main {
     margin-top: 3rem;
     margin-bottom: 3rem;
