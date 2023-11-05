@@ -57,7 +57,7 @@ header {
 }
 
 a {
-    color: orange;
+    color: orangered;
     text-decoration: none;
 }
 
@@ -131,10 +131,10 @@ section#servicios h2 {
     width: 200px;
     height: 300px;
 }
-section#eventos h2{
+section#eventos h2 {
     text-align: center; 
 }
-section#contactos h2{
+section#contactos h2 {
     visibility: hidden;
 }
 section div#redes-sociales {
@@ -147,14 +147,14 @@ section div#redes-sociales {
     border: 1px solid black;
     align-items: center;
 }
-section#complemento{
+section#complemento {
     display: flex;
     flex-flow: nowrap;
     justify-content: space-around;
     align-self: flex-start;
     margin-top: 50px;
 }
-footer{
+footer {
     width: 100%;
     height: 200px;
     background-color: olive;
@@ -163,4 +163,6 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+
+
 
